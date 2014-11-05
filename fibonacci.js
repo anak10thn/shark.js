@@ -13,5 +13,5 @@ do {
   chk = f[n];
   console.log(n+"="+f[n]);
 }
-while (n++ && chk < parseInt(927372692193079200000));
+while (n++ && chk != parseInt(927372692193079200000));
 console.log("indexke "+(n-1));
